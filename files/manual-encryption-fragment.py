@@ -15,7 +15,7 @@ from rc4 import RC4
 #Cle wep AA:AA:AA:AA:AA
 key = b'\xaa\xaa\xaa\xaa\xaa'
 
-# Nouveau texte à envoyer de même taille que les données de la trame
+# Nouveau texte à envoyer, 3 fois la taille que les données de la trame originale
 plaintext = b'HHHHHeeeeeelllllllllllloooooooo SWI1HHHHHeeeeeelllllllllllloooooooo SWI2HHHHHeeeeeelllllllllllloooooooo SWI3'
 
 arp_array = []
